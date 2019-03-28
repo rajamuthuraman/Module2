@@ -102,4 +102,18 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
+```{r presssure2, fig.width=5, fig.height=5,echo=F}
+plot(pressure)
+```
+
+
+```{r,echo=FALSE}
+knitr::kable(head(mtcars),caption="Sample")
+```
+
+## Insert Equation
+$$ Y=\beta_0+ \beta_1x $$
+
+
+
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
