@@ -1,0 +1,53 @@
+---
+title: "Untitled"
+author: Raja Muthuraman
+date: March 2,2019
+output: 
+  revealjs::revealjs_presentation:
+    transition: convex
+---
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+## Insert tables
+```{r,echo=FALSE}
+knitr::kable(head(mtcars),caption="Sample")
+```
+
+## Insert Equation
+$$ Y=\beta_0+ \beta_1x $$
+
+
+## Insert Image{.flexbox .vcenter}
+![sunstar](sunstar.png)
+
+
+## A slide with 2 columns an image and a bulleted list {.columns-2}
+
+![](sunstar.png)
+
+- bullet 1
+- bullet 2
+- bullet 3
