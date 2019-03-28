@@ -115,5 +115,10 @@ knitr::kable(head(mtcars),caption="Sample")
 $$ Y=\beta_0+ \beta_1x $$
 
 
+## Insert Image
+![sunstar](sunstar.png)
 
+## INsert Gif and Video
+![sunstar](sunstar.gif)
+![sunstar](sunstar.mp4)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
